@@ -1,0 +1,6 @@
+<h1> Dev List </h1>
+<ul>
+{% for device in devices %}
+    <li>{{ device.hostname }} ({{ device.ip_address }})</li>
+{% endfor %}
+</ul>
